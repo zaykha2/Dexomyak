@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "Y4";
+var prefix = "Y5";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "528208975817342986"; // ايدي السررفر
-var channel = "528234377122021427";//ايدي الروم
+var channel = "528209429846556683";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Yakuza , yakuza , yakuza , yakuza , yakuza , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , **')
     },305);
