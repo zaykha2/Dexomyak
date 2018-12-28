@@ -8,9 +8,9 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "528208975817342986"; // ايدي السررفر
-var channel = "528209388926926851";//ايدي الروم
+var channel = "528209412649648150";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , **')
+    client.guilds.get(server).channels.get(channel).send('**Yakuza , yakuza , yakuza , yakuza , yakuza , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , Scream , **')
     },305);
 })
 
